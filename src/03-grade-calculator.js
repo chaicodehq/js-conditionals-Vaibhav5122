@@ -25,8 +25,6 @@
  * @returns {string} The letter grade or "INVALID"
  */
 export function calculateGrade(score, hasExtraCredit) {
-  // Your code here
-
 
   if (score > 100 || score < 0) {
     return 'INVALID'
